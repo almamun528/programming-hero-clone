@@ -13,6 +13,30 @@
     <!-- Font Awesome Cdn  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <style>
+        .special-sec{
+            background-image: url("./image/curve.png");
+            background-position: center center;
+            background-size: cover;
+        }
+        footer{
+            background-image: url("image/footerbg.10d6ca49.jpg");
+            background-size: cover;
+            background-position: center center;
+        }
+        /* Hide scroll bar for webkit browsers */
+    .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+    }
+
+    /* Hide scroll bar for other browsers */
+    .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    }
+
+    </style>
+
 </head>
 <body class="overflow-x-hidden">
 
@@ -38,7 +62,7 @@
                 <!-- users Option -->
                  <div class="user flex items-center md:ml-4">
                     <button class="bg-gradient-to-r from-purple-500 to-purple-900 px-5 py-2 rounded-lg cursor-pointer"> Continue Course</button>
-                    <img  class="rounded-full w-8 ml-5" src="./image/prefile.jpg" alt="">
+                    <img  class="rounded-full w-2/12 cursor-pointer md:w-10 ml-5" src="./image/progile-icon.jpg" alt="">
                  </div>
              </div>
         </nav>
@@ -49,7 +73,9 @@
          <main class="mx-auto flex justify-between px-5 pb-8 mt-10">
             <!-- left Area -->
             <div class="left hidden md:block">
-                <img class=" animate-bounce " src="./image/Html.b47d1822.svg" alt="">
+                <div class=" -rotate-45">
+                    <img class=" animate-bounce" src="./image/Html.b47d1822.svg" alt="">
+                </div>
                 <img class="animate-spin ml-20"  src="./image/React.fa7754d1.svg" alt="">
             </div>
             <!-- middle area Content -->
@@ -332,18 +358,19 @@
       </section>
 
       <!-- ! What Is The Specialty_ Of This Course?
- -->
 
-      <section class="bg-gradient-to-b from-[#120241] to-[#370AA4] text-white p-5">
+ -->
+      <!-- !PROBLEM PROBLEM PROBLEM PROBLEM -->  <!-- !PROBLEM PROBLEM PROBLEM PROBLEM -->  <!-- !PROBLEM PROBLEM PROBLEM PROBLEM -->  <!-- !PROBLEM PROBLEM PROBLEM PROBLEM -->  <!-- !PROBLEM PROBLEM PROBLEM PROBLEM -->  <!-- !PROBLEM PROBLEM PROBLEM PROBLEM -->  <!-- !PROBLEM PROBLEM PROBLEM PROBLEM -->
+
+      <section class=" special-section pb-80   text-white p-5">
         <div class="headline ">
-            <h1 class="text-lg pt-5 font-semibold text-center md:text-3xl">What Is The Specialty_ Of This Course?</h1>
+            <h1 class="text-lg  font-semibold text-center md:text-3xl">What Is The Specialty_ Of This Course?</h1>
         </div>
         <br>
 
         <!-- 8 boxes -->
-
         <main 
-          class=" grid md:grid-cols-2 lg:grid-cols-3  ">
+          class=" grid md:grid-cols-2 md:w-9/12 mx-auto lg:grid-cols-3  ">
             <!-- !box Start -->
             <div class="box-1 bg-gradient-to-b from-[#460cd8] to-[#300287b4] p-4 rounded-2xl shadow-2xl border border-purple-400 m-2">
                 <img src="./image/web-development-course.svg" alt=""> <br>
@@ -420,9 +447,166 @@
         </main>
 
       </section>
-
         <!-- !9 boxes section is end -->
+         <!-- 
+        How Will This Course Work_?
+This course guides you from basics to mastering the MERN stack with step-by-step lessons, hands-on projects, and assessments.
 
 
+        
+         -->
+
+      <!-- !Before Footer and  How Will This Course Work_? -->
+
+      <section class="bg-black text-white pb-10 px-2 ">
+
+        <main class="md:w-9/12 md:mx-auto justify-between md:flex ">
+
+            <div class="left md:w-5/12 md:mt-10 mb-5">
+                <h1 class="text-xl md:text-4xl font-semibold md:w-9/12 pb-4">How Will This Course Work_?</h1>
+                <p class="text-gray-400 mb-2">This course guides you from basics to mastering the MERN stack with step-by-step lessons, hands-on projects, and assessments.</p>
+                <button class="bg-gradient-to-r from-purple-500 to-purple-950 px-5 py-2 rounded text-lg text-white mt-2 cursor-pointer"  >Enroll Now</button>
+            </div>
+            </div>
+
+            <div class="right   md:w-6/12 md:max-h-[650px] overflow-y-scroll scrollbar-hide">
+                
+                <!-- box Items -->
+                 <!-- !box 1 -->
+                 <div class="box-1 my-2 box-border border-2 border-transparent p-4 rounded-xl bg-[#222347e3] hover:bg-[#2B1B42] hover:border-2 hover:border-purple-300">
+                    <img  src="./image/time-management 1.64626d37.svg" alt="">
+                    <h1 class="my-2 text-xl md:text-2xl hover:text-purple-500">Module Release Time</h1>
+                    <p class="text-gray-400">Everyday we will be given a module/practice task. Videos will be released at 10.00pm. Smart students may trick our system to get module access 2 hours earlier than everyone else</p>
+
+                 </div>
+                 <!-- ! -->
+                 <!-- !box 2 -->
+                 <div class="box-2 my-2 box-border border-2 border-transparent p-4 rounded-xl bg-[#222347e3] hover:bg-[#2B1B42] hover:border-2 hover:border-purple-300">
+                    <img  src="./image/video-camera.svg" alt="">
+                    <h1 class="my-2 text-xl md:text-2xl hover:text-purple-500">Watch Time Duration</h1>
+                    <p class="text-gray-400">A full module has approximately 10 videos (each video 12-14 min). You have to spend 4-5 hours watching, practicing the contents. We recommend allocating 6-8 hours everyday for this course.</p>
+
+                 </div>
+                 <!-- ! -->
+                 <!-- !box 3 -->
+                 <div class="box-3 my-2 box-border border-2 border-transparent p-4 rounded-xl bg-[#222347e3] hover:bg-[#2B1B42] hover:border-2 hover:border-purple-300">
+                    <img  src="./image/searching 1.377d471d.svg" alt="">
+                    <h1 class="my-2 text-xl md:text-2xl hover:text-purple-500">Search Similar Topic Online</h1>
+                    <p class="text-gray-400">Keep 1-2 hours everyday to clear our doubts from google, or using our support system. If you do not have any doubts, we recommend you search the similar topic of the module online</p>
+
+                 </div>
+                 <!-- ! -->
+                 <!-- !box 4 -->
+                 <div class="box-4 my-2 box-border border-2 border-transparent p-4 rounded-xl bg-[#222347e3] hover:bg-[#2B1B42] hover:border-2 hover:border-purple-300">
+                    <img  src="./image/conceptual-live.svg" alt="">
+                    <h1 class="my-2 text-xl md:text-2xl hover:text-purple-500">Live Conceptual Session</h1>
+                    <p class="text-gray-400">You will have a practice day after every 2-4 modules. And there will be a conceptual session on that practice day. We highly recommend our students to join the live conceptual session.</p>
+
+                 </div>
+                 <!-- ! -->
+                 <!-- !box 5 -->
+                 <div class="box-5 my-2 box-border border-2 border-transparent p-4 rounded-xl bg-[#222347e3] hover:bg-[#2B1B42] hover:border-2 hover:border-purple-300">
+                    <img  src="./image/paper.svg" alt="">
+                    <h1 class="my-2 text-xl md:text-2xl hover:text-purple-500">Assignment Submit</h1>
+                    <p class="text-gray-400">After every 4-7 modules, you will have an assignment. Finish the assignment on time to be considered for 60 marks. If you are late by one day, you will be considered for 50 marks. And if you submit the assignment late, you will be considered for 30 marks.</p>
+
+                 </div>
+                 <!-- ! -->
+                 <!-- !box 6 -->
+                 <div class="box-6 my-2 box-border border-2 border-transparent p-4 rounded-xl bg-[#222347e3] hover:bg-[#2B1B42] hover:border-2 hover:border-purple-300">
+                    <img  src="./image/scholarship 1.6014a208.svg" alt="">
+                    <h1 class="my-2 text-xl md:text-2xl hover:text-purple-500">SCIC</h1>
+                    <p class="text-gray-400">If you finish our main course on time with good marks, you will qualify for the SCIC. you will have to stay focused and dedicated to finish the course on time.</p>
+
+                 </div>
+                 <!-- ! -->
+                 <!-- !box 7 -->
+                 <div class="box-7 my-2 box-border border-2 border-transparent p-4 rounded-xl bg-[#222347e3] hover:bg-[#2B1B42] hover:border-2 hover:border-purple-300">
+                    <img  src="./image/Unlimited-support.svg" alt="">
+                    <h1 class="my-2 text-xl md:text-2xl hover:text-purple-500">Support Session</h1>
+                    <p class="text-gray-400">We will answer every question related to our course within 10 hours. Also, you may join our live support session three times in a day (Friday morning there won't be any live support session</p>
+
+                 </div>
+                 <!-- ! -->
+                 <!-- !box 8 -->
+                 <div class="box-8 my-2 box-border border-2 border-transparent p-4 rounded-xl bg-[#222347e3] hover:bg-[#2B1B42] hover:border-2 hover:border-purple-300">
+                    <img  src="./image/online-education 1.ed4d3d0c.svg" alt="">
+                    <h1 class="my-2 text-xl md:text-2xl hover:text-purple-500">20 Weeks Support</h1>
+                    <p class="text-gray-400">We believe there is no shortcut, other than hard work. So, be committed to invest 6-8 hours every single day for the next 20 weeks to finish our main course on time.</p>
+
+                 </div>
+                 <!-- ! -->
+            </div>
+        </main>
+
+      </section>
+
+
+        <!-- !footer -->
+        <footer class="text-white px-2 pt-20 pb-10">
+
+            <div class="grid md:grid md:grid-cols-3  md:w-9/12 mx-auto">
+
+                <div class="left ">
+                    <h1 class="text-lg">Office Address</h1>
+                    
+                    <br>
+    
+                    <address class="space-y-2">
+                        <p>Level-4, 34, Awal Centre, Banani, Dhaka</p>
+                        <p>Support: web@programming-hero.com</p>
+                        <p>Helpline: 01322-901105</p>
+                        <p>(Available : Sat - Thu, 10:00 AM to 7:00 PM)</p>
+                    </address>
+                </div>
+    
+                <div class="middle my-8 md:my-0 lg:my-0">
+                    
+                    <h1 class="text-lg mb-4">Useful Links</h1>
+    
+                    <ul class="space-y-2">
+                        <li>Blog</li>
+                        <li>Success</li>
+                        <li>About Us</li>
+                        <li>Refund Policy</li>
+                        <li>Terms and Conditions</li>
+                        <li>Privacy & Policy</li>
+                    </ul>
+    
+                </div>
+    
+                <div class="right ">
+                    <h1 class="text-lg mb-4">Follow Us</h1>
+     
+                    <div class="social-icons space-x-2">
+                        <i class="text-xl fa-brands fa-facebook"></i>
+                        <i class="text-xl fa-brands fa-instagram"></i>
+                        <i class="text-xl fa-brands fa-linkedin"></i>
+                        <i class="text-xl fa-brands fa-youtube"></i>
+                        <i class="text-xl fa-brands fa-github"></i>
+                    </div>
+                    
+                    <h5 class="my-3">Download Apps</h5>
+    
+                    <div class="">
+                        <img class="w-1/3 md:w-2/12 " src="./image/microsoft-6.b3914310.webp" alt="">
+                        <img class="w-1/3 md:w-2/12 my-5 "  src="./image/app-store.webp" alt="">
+                        <img class="w-1/3 md:w-2/12 "   src="./image/google-play.b670281a.webp" alt="">
+                    </div>
+    
+                </div>
+            </div>
+
+            <p class="pt-14 text-purple-700 text-center" >©Programming Hero clone by Mr.Mamun in 2024</p>
+        </footer>
 </body>
 </html>
+<!-- 
+
+
+
+
+<!-- !html line  365 number line
+ class name  special-sec pb-80   
+ 
+-->
